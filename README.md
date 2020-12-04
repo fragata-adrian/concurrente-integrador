@@ -11,7 +11,7 @@ Nuestro trabajo es buscar la forma de reducir ese tiempo de análisis para aumen
 
 ## Conclusión
 
-Como se puede observar, el sistema base es muy lento a la hora de analizar una cantidad abundante de muestras. En ambos casos se analizan tan solo 15 muestras; pero en la realidad, esta cantidad es mucho más grandes y analizar cada una puede llegar a tomar meses de procesamiento ya que una sola de éstas puede llegar a pesar más 100 Gigabytes de datos y el tiempo de análisis de una cadena de esta magnitud muy extenso e ineficiente.<br/>
+Como se puede observar, el sistema base es muy lento a la hora de analizar una cantidad abundante de muestras. En ambos casos se analizan tan solo 15 muestras; pero en la realidad, esta cantidad es mucho más grandes y analizar cada una puede llegar a tomar meses de procesamiento ya que una sola de éstas puede llegar a pesar más 100 Gigabytes de datos y el tiempo de análisis de una cadena de esa magnitud muy extenso e ineficiente.<br/>
 En el ejemplo se puede apreciar cómo utilizar un sistema concurrente reduce el tiempo en hasta más del 50% del total a comparación con un sistema no concurrente. Esto nos permite abarcar una cantidad mucho mayor ADN analizados por tiempo y a su vez analizar cadenas que antes era imposible debido a su tamaño de datos y el tiempo que esto conlleva.
 
 ## Source
